@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" id="switcher-id" href="">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+        
+    <div class="calculator">
+        <div class="title"><h1>calc</h1>
+            <h3>theme</h3>
+            <div class="wrapper">
+                <input type="radio" class="switch" data-theme="pink" name="slider" id="tab-1">
+                <input type="radio" class="switch" data-theme="purple" name="slider" id="tab-2" checked>
+                <input type="radio" class="switch" data-theme="dark" name="slider" id="tab-3">
+          
+                <header>
+                  <label for="tab-1" class="tab-1"></label>
+                  <label for="tab-2" class="tab-2"></label>
+                  <label for="tab-3" class="tab-3"></label>
+                  <div class="slider">
+                  </div>
+          
+                </header>
+         </div>
+         </div>
+    <div class="output" id="output">
+        <div data-previous-operand class="previous-operand"></div>
+        <div data-current-operand class="current-operand"></div>
+    </div>
+    <div class="calculator-grid">
+        <button class="btn" data-number>7</button>
+        <button class="btn" data-number>8</button>
+        <button class="btn" data-number>9</button>
+        <button class="btn" data-delete>DEL</button>
+        <button class="btn" data-number>4</button>
+        <button class="btn" data-number>5</button>
+        <button class="btn" data-number>6</button>
+        <button class="btn" data-operation>+</button>
+        <button class="btn" data-number>1</button>
+        <button class="btn" data-number>2</button>
+        <button class="btn" data-number>3</button>
+        <button class="btn" data-operation>-</button>
+        <button class="btn" data-number>.</button>
+        <button class="btn" data-number>0</button>
+        <button class="btn" data-operation>/</button>
+        <button class="btn" data-operation>x</button>
+        <button class="span-two" data-reset>RESET</button>
+        <button class="span-two" data-equal>=</button>
+    </div>
+</div>
+</body>
+</html>

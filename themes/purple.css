@@ -1,0 +1,33 @@
+:root{
+    --background:  #7D82B8;
+    --output-color: #505591;
+    --lighter-bg: #6E74AF;
+    --button: #B7E3CC;
+    --button-shadow: #99D6B7;
+    --spec-button: #252841;
+    --spec-shadow: #4A5082;
+}
+body{
+    background-color: var(--background);
+}
+.output{
+    background-color: var(--output-color);
+}
+.calculator-grid{
+    background-color: var(--lighter-bg);
+}
+button:nth-child(4){
+    background-color: var(--spec-button);
+    box-shadow: 2px 4px var(--spec-shadow);
+    color: #FFFFFF;
+}
+button:nth-child(17){
+    background-color: var(--spec-button);
+    box-shadow: 2px 4px var(--spec-shadow);
+    color: #FFFFFF;
+}
+.btn, .span-two{
+    background-color: var(--button);
+    box-shadow: 2px 4px var(--button-shadow);
+    color: rgb(5, 5, 5);
+}
